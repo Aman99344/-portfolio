@@ -11,6 +11,16 @@ body {
     font-weight: 800;
 }
 
+a {
+    text-decoration: none;
+
+}
+
+.social-icon-link {
+    color: inherit;
+  }
+  
+
 *{
     margin: 0px;
 }
