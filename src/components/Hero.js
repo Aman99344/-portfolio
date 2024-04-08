@@ -63,13 +63,13 @@ import React from "react";
 import profileImg1 from "../assets/profileImg1.png";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
-import { saveAs } from "file-saver";
-import pdf from "../assets/AmanGuptaResume.pdf";
+// import { saveAs } from "file-saver";
+// import pdf from "../assets/AmanGuptaResume.pdf";
 
 const Hero = () => {
-  const handleDownload = () => {
-    saveAs(pdf, "Aman Gupta Resume.pdf");
-  };
+  // const handleDownload = () => {
+  //   saveAs(pdf, "Aman Gupta Resume.pdf");
+  // };
 
   return (
     <div className="h-[82vh]">
@@ -91,7 +91,7 @@ const Hero = () => {
           </h1>
           <div>
             <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-500">
-              with 2+ years of experience
+              with 1.5+ years of experience
             </p>
           </div>
           <div className="text-5xl flex justify-center sm:justify-start gap-16 my-7 text-purple-600">
@@ -102,12 +102,12 @@ const Hero = () => {
           <div className="relative inline-flex my-3">
             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
             <a
-              onClick={handleDownload}
-              href={pdf}
+              // onClick={handleDownload}
+              href={"https://wa.me/917782051614"}
               download="Aman Gupta Resume.pdf"
-              className="w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+              className="w-[120px] h-[40px] relative inline-flex items-center justify-center px-8 py-4 text-3xl font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             >
-              Download CV
+              Contact
             </a>
           </div>
         </div>
